@@ -119,6 +119,11 @@ namespace Tests.Xamarin.Forms.Mocks
 			{
 				throw new NotImplementedException();
 			}
+
+            public void QuitApplication()
+            {
+                throw new NotImplementedException();
+            }
 		}
 
 		internal class MockDeserializer : IDeserializer
